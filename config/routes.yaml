@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+triangle:
+    path: /triangle/{a}/{b}/{c}
+    controller: App\Controller\TriangleController::getShapeDetails
+circle:
+    path: /circle/{r}
+    controller: App\Controller\CircleController::getShapeDetails
